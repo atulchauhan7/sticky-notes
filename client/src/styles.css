@@ -1,0 +1,19 @@
+.board {
+  width: 100vw;
+  height: 100vh;
+  background: #f4f4f4;
+  position: relative;
+}
+
+.note {
+  width: 120px;
+  height: 120px;
+  background: yellow;
+  border: 1px solid #999;
+  padding: 10px;
+  position: absolute;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
